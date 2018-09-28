@@ -1,0 +1,19 @@
+{
+  "APP_NAME":"CreateDataset",
+  "ENV":"UAT",
+  "PATHS":{
+    "SOURCE_CODE":"src",
+    "DATA":"data",
+    "DATA_INPUT":"input",
+    "DATA_OUTPUT":"output",
+    "LOG":"log",
+    "TESTING":"test"
+  },
+  "SETTINGS":{
+    "SOURCE_DATA_URL_PREFIX":"https://wind-bow.glitch.me/twitch-api/channels",
+    "SOURCE_DATA_CHANNELS":[
+      "ESL_SC2","OgamingSC2","cretetion","freecodecamp","storbeck","habathcx","RobotCaleb","noobs2ninjas","ninja","shroud","Dakotaz","esltv_cs","pokimane","tsm_bjergsen","boxbox","wtcn","a_seagull","kinggothalion","amazhs","jahrein","thenadeshot","sivhd","kingrichard"
+    ],
+    "OUTPUT_FILENAME":"sample.csv"
+  }
+}
